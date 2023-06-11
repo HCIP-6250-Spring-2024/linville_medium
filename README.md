@@ -1,2 +1,2 @@
-# is_medium
+# medium
 Blog
