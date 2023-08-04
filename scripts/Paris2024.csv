@@ -1,0 +1,533 @@
+Player 1,Player 2,Country,Points,Date,Gender
+David Ahman,Jonatan Hellvig,SWEDEN,1560 points (2),20/03/2023,male
+Adrian Gavira,Pablo Herrera,SPAIN,1560 points (2),20/03/2023,male
+Anders Mol,Christian Sorum,NORWAY,1200 points (1),20/03/2023,male
+Adrian Carambula,Alex Ranghieri,ITALY,1000 points (1),20/03/2023,male
+Paul Burnett,Chris McHugh,AUSTRALIA,920 points (2),20/03/2023,male
+Michal Bryl,Bartosz Losiak,POLAND,900 points (1),20/03/2023,male
+Alex Brouwer,Robert Meeuwsen,NETHERLANDS,760 points (1),20/03/2023,male
+Esteban Grimalt,Marco Grimalt,CHILE,760 points (1),20/03/2023,male
+Nils Ehlers,Clemens Wickler,GERMANY,760 points (1),20/03/2023,male
+Stefan Boermans,Yorick de Groot,NETHERLANDS,760 points (1),20/03/2023,male
+Mortiz Pristauz,Robin Seidl,AUSTRIA,720 points (1),20/03/2023,male
+Evandro Goncalves,Arthur Mariano,BRAZIL,680 points (1),20/03/2023,male
+Aleksandrs Samoilovs,Janis Smedins,LATVIA,620 points (2),20/03/2023,male
+Vitor Felipe,Renato Lima,BRAZIL,600 points (1),20/03/2023,male
+Cherif Samba,Ahmed Tijan,QATAR,600 points (1),20/03/2023,male
+Andre Loyola,George Wanderley,BRAZIL,600 points (1),20/03/2023,male
+Sam Cottafava,Paolo Nicolai,ITALY,600 points (1),20/03/2023,male
+Thomas Hodges,Zac Schubert,AUSTRALIA,600 points (1),20/03/2023,male
+Theo Brunner,Trevor Crabb,USA,600 points (1),20/03/2023,male
+Dan Dearing,Sam Schachter,CANADA,600 points (1),20/03/2023,male
+Remi Bassereau,Julien Lyneel,FRANCE,600 points (1),20/03/2023,male
+Evan Cory,Logan Webber,USA,560 points (2),20/03/2023,male
+Hasan Mermer,Safa Urlu,TURKEY,540 points (2),20/03/2023,male
+Jake MacNeil,Alex Russell,,480 points (2),20/03/2023,male
+Kristen Nuss,Taryn Kloth,USA,1560 points (2),20/03/2023,female
+Kelly Cheng,Sara Hughes,USA,1360 points (2),20/03/2023,female
+Raisa Schoon,Katja Stam,NETHERLANDS,1200 points (1),20/03/2023,female
+Barbora Hermannova,Marie-Sara Stochlova,CZECH REPUBLIC,1200 points (2),20/03/2023,female
+Nina Brunner,Tanja Huberli,SWITZERLAND,1100 points (1),20/03/2023,female
+Toni Rodriguez,Savvy Simo,USA,1100 points (2),20/03/2023,female
+Talita Antunes,Thamela Coradelli,BRAZIL,1060 points (2),20/03/2023,female
+Dorina Klinger,Ronja Klinger,AUSTRIA,1020 points (2),20/03/2023,female
+Mariafe Artacho,Taliqua Clancy,AUSTRALIA,1000 points (2),20/03/2023,female
+Karla Borger,Sandra Ittlinger,GERMANY,920 points (2),20/03/2023,female
+Tina Graudina,Anastasija Kravcenoka,LATVIA,900 points (1),20/03/2023,female
+Megan Kraft,Emily Stockman,USA,860 points (2),20/03/2023,female
+Maria Carro,Angela Lobato,SPAIN,800 points (2),20/03/2023,female
+Duda Lisboa,Ana Patricia Silva,BRAZIL,760 points (1),20/03/2023,female
+Melissa Humana-Paredes,Brandie Wilkerson,CANADA,760 points (1),20/03/2023,female
+Victoria Lopes,Taina Silva,BRAZIL,720 points (1),20/03/2023,female
+Miki Ishii,Sayaka Mizoe,JAPAN,700 points (2),20/03/2023,female
+Esmee Bobner,Zoe Verge-Depre,SWITZERLAND,620 points (2),20/03/2023,female
+Carolina Salgado,Barbara Seixas,BRAZIL,600 points (1),20/03/2023,female
+Sophie Bukovec,Sarah Pavan,CANADA,600 points (1),20/03/2023,female
+Terese Cannon,Sarah Sponcil,USA,600 points (1),20/03/2023,female
+Lezana Placette,Alexia Richard,FRANCE,600 points (1),20/03/2023,female
+Akiko Hasegawa,Yurika Sakaguchi,JAPAN,560 points (2),20/03/2023,female
+Tetiana Lazarenko,Diana Lunina,UKRAINE,480 points (2),20/03/2023,female
+David Ahman,Jonatan Hellvig,SWEDEN,2760 (3),28/03/2023,male
+Anders Mol,Christian Sorum,NORWAY,2300 (2),28/03/2023,male
+Adrian Carambula,Alex Ranghieri,ITALY,1760 (2),28/03/2023,male
+Nils Ehlers,Clemens Wickler,GERMANY,1760 (2),28/03/2023,male
+Stefan Boermans,Yorick de Groot,NETHERLANDS,1660 (2),28/03/2023,male
+Adrian Gavira,Pablo Herrera,SPAIN,1560 (2),28/03/2023,male
+Alex Brouwer,Robert Meeuwsen,NETHERLANDS,1520 (2),28/03/2023,male
+Michal Bryl,Bartosz Losiak,POLAND,1500 (2),28/03/2023,male
+Esteban Grimalt,Marco Grimalt,CHILE,1360 (2),28/03/2023,male
+Sam Cottafava,Paolo Nicolai,ITALY,1360 (2),28/03/2023,male
+Paul Burnett,Chris McHugh,AUSTRALIA,1260 (3),28/03/2023,male
+Moritz Pristauz,Robin Seidl,AUSTRIA,1120 (2),28/03/2023,male
+Cherif Samba,Ahmed Tijan,QATAR,1060 (2),28/03/2023,male
+Theo Brunner,Trevor Crabb,USA,1060 (2),28/03/2023,male
+Kusti Nolvak,Mart Tiisaar,ESTONIA,1060 (2),28/03/2023,male
+Evandro Goncalves,Arthur Mariano,BRAZIL,1020 (2),28/03/2023,male
+Vitor Felipe,Renato Lima,BRAZIL,1000 (2),28/03/2023,male
+Andre Loyola,George Wanderley,BRAZIL,1000 (2),28/03/2023,male
+Thomas Hodges,Zac Schubert,AUSTRALIA,940 (2),28/03/2023,male
+Dan Dearing,Sam Schachter,CANADA,940 (2),28/03/2023,male
+Daniele Lupo,Enrico Rossi,ITALY,900 (2),28/03/2023,male
+Martin Ermacora,Philipp Waller,AUSTRIA,800 (2),28/03/2023,male
+Julian Horl,Alex Horst,AUSTRIA,760 (2),28/03/2023,male
+Miguel Sarabia,Juan Virgen,MEXICO,760 (2),28/03/2023,male
+Tri Bourne,Chaim Schalk,USA,760 (2),28/03/2023,male
+Kelly Cheng,Sara Hughes,USA,2560 (3),28/03/2023,female
+Kristen Nuss,Taryn Kloth,USA,2160 (3),28/03/2023,female
+Mariafe Artacho,Taliqua Clancy,AUSTRALIA,2000 (2),28/03/2023,female
+Raisa Schoon,Katja Stam,NETHERLANDS,1960 (2),28/03/2023,female
+Duda Lisboa,Ana Patricia Silva,BRAZIL,1860 (2),28/03/2023,female
+Barbora Hermannova,Marie-Sara Stochlova,CZECH REPUBLIC,1540 (2),28/03/2023,female
+Melissa Humana-Paredes,Brandie Wilkerson,CANADA,1520 (2),28/03/2023,female
+Talita Antunes,Thamela Coradelli,BRAZIL,1400 (3),28/03/2023,female
+Carolina Salgado,Barbara Seixas,BRAZIL,1360 (2),28/03/2023,female
+Valentina Gottardi,Marta Menegatti,ITALY,1360 (2),28/03/2023,female
+Tina Graudina,Anastasija Samoilova,LATVIA,1360 (2),28/03/2023,female
+Megan Kraft,Emily Stockman,USA,1260 (3),28/03/2023,female
+Svenja Muller,Cinja Tillman,GERMANY,1220 (2),28/03/2023,female
+Sophie Bukovec,Sarah Pavan,CANADA,1200 (2),28/03/2023,female
+Terese Cannon,Sarah Sponcil,USA,1200 (2),28/03/2023,female
+Lezana Placette,Alexia Richard,FRANCE,1200 (2),28/03/2023,female
+Nina Brunner,Tanja Huberli,SWITZERLAND,1100 (1),28/03/2023,female
+Toni Rodriguez,Savvy Simo,USA,1100 (2),28/03/2023,female
+Miki Ishii,Sayaka Mizoe,JAPAN,1100 (3),28/03/2023,female
+Dorina Klinger,Ronja Klinger,AUSTRIA,1020 (2),28/03/2023,female
+Karla Borger,Sandra Ittlinger,GERMANY,920 (2),28/03/2023,female
+Abril Flores,Atenas Gutierrez,MEXICO,920 (2),28/03/2023,female
+Meimei Lin,Jinjin Zeng,CHINA,860 (2),28/03/2023,female
+Maria Carro,Angela Lobato,SPAIN,800 (2),28/03/2023,female
+David Ahman,Jonatan Hellvig,SWEDEN,2760 (3),01/04/2023,male
+Anders Mol,Christian Sorum,NORWAY,2300 (2),01/04/2023,male
+Adrian Gavira,Pablo Herrera,SPAIN,2160 (3),01/04/2023,male
+Andre Loyola,George Wanderley,BRAZIL,1800 (3),01/04/2023,male
+Adrian Carambula,Alex Ranghieri,ITALY,1760 (2),01/04/2023,male
+Nils Ehlers,Clemens Wickler,GERMANY,1760 (2),01/04/2023,male
+Paul Burnett,Chris McHugh,AUSTRALIA,1720 (4),01/04/2023,male
+Stefan Boermans,Yorick de Groot,NETHERLANDS,1660 (2),01/04/2023,male
+Vitor Felipe,Renato Lima,BRAZIL,1600 (3),01/04/2023,male
+Moritz Pristauz,Robin Seidl,AUSTRIA,1580 (3),01/04/2023,male
+Alex Brouwer,Robert Meeuwsen,NETHERLANDS,1520 (2),01/04/2023,male
+Michal Bryl,Bartosz Losiak,POLAND,1500 (2),01/04/2023,male
+Evandro Goncalves,Arthur Mariano,BRAZIL,1480 (3),01/04/2023,male
+Esteban Grimalt,Marco Grimalt,CHILE,1360 (2),01/04/2023,male
+Sam Cottafava,Paolo Nicolai,ITALY,1360 (2),01/04/2023,male
+Theo Brunner,Trevor Crabb,USA,1360 (3),01/04/2023,male
+Tri Bourne,Chaim Schalk,USA,1360 (3),01/04/2023,male
+Martin Ermacora,Philipp Waller,AUSTRIA,1260 (3),01/04/2023,male
+Thomas Hodges,Zac Schubert,AUSTRALIA,1240 (3),01/04/2023,male
+Dan Dearing,Sam Schachter,CANADA,1240 (2),01/04/2023,male
+Julian Horl,Alex Horst,AUSTRIA,1220 (3),01/04/2023,male
+Arnaud Gauthier-Rat,Youssef Krou,FRANCE,1220 (2),01/04/2023,male
+Jorge Alayo,Noslen Diaz,CUBA,1140 (2),01/04/2023,male
+Cherif Samba,Ahmed Tijan,QATAR,1060 (2),01/04/2023,male
+Kusti Nolvak,Mart Tiisaar,ESTONIA,1060 (2),01/04/2023,male
+Kelly Cheng,Sara Hughes,USA,2560 (3),01/04/2023,female
+Kristen Nuss,Taryn Kloth,USA,2160 (3),01/04/2023,female
+Carolina Salgado,Barbara Seixas,BRAZIL,2120 (3),01/04/2023,female
+Mariafe Artacho,Taliqua Clancy,AUSTRALIA,2000 (2),01/04/2023,female
+Raisa Schoon,Katja Stam,NETHERLANDS,1960 (2),01/04/2023,female
+Terese Cannon,Sarah Sponcil,USA,1920 (3),01/04/2023,female
+Duda Lisboa,Ana Patricia Silva,BRAZIL,1860 (2),01/04/2023,female
+Talita Antunes,Thamela Coradelli,BRAZIL,1860 (4),01/04/2023,female
+Miki Ishii,Sayaka Mizoe,JAPAN,1700 (4),01/04/2023,female
+Barbora Hermannova,Marie-Sara Stochlova,CZECH REPUBLIC,1540 (2),01/04/2023,female
+Melissa Humana-Paredes,Brandie Wilkerson,CANADA,1520 (2),01/04/2023,female
+Lezana Placette,Alexia Richard,FRANCE,1500 (3),01/04/2023,female
+Toni Rodriguez,Savvy Simo,USA,1460 (3),01/04/2023,female
+Dorina Klinger,Ronja Klinger,AUSTRIA,1380 (3),01/04/2023,female
+Karla Borger,Sandra Ittlinger,GERMANY,1380 (2),01/04/2023,female
+Valentina Gottardi,Marta Menegatti,ITALY,1360 (2),01/04/2023,female
+Tina Graudina,Anastasija Samoilova,LATVIA,1360 (2),01/04/2023,female
+Niina Ahtiainen,Taru Lahti,FINLAND,1300 (3),01/04/2023,female
+Esmee Bobner,Zoe Verge-Depre,SWITZERLAND,1300 (3),01/04/2023,female
+Megan Kraft,Emily Stockman,USA,1260 (3),01/04/2023,female
+Andressa Cavalcanti,Vitoria De Souza,BRAZIL,1260 (3),01/04/2023,female
+Hailey Harward,Kelley Kolinske,USA,1260 (3),01/04/2023,female
+Svenja Muller,Cinja Tillman,GERMANY,1220 (2),01/04/2023,female
+Sophie Bukovec,Sarah Pavan,CANADA,1200 (2),01/04/2023,female
+Victoria Lopes,Taina Silva,BRAZIL,1180 (2),01/04/2023,female
+David Ahman,Jonatan Hellvig,SWEDEN,2760 (3),17/04/2023,male
+Adrian Gavira,Pablo Herrera,SPAIN,2620 (4),17/04/2023,male
+Anders Mol,Christian Sorum,NORWAY,2300 (2),17/04/2023,male
+Evandro Goncalves,Arthur Mariano,BRAZIL,2280 (4),17/04/2023,male
+Paul Burnett,Chris McHugh,AUSTRALIA,2280 (5) ,17/04/2023,male
+Moritz Pristauz,Robin Seidl,AUSTRIA,2040 (4) ,17/04/2023,male
+Theo Brunner,Trevor Crabb,USA,1960 (4) ,17/04/2023,male
+Julian Horl,Alex Horst,AUSTRIA,1940 (4) ,17/04/2023,male
+Andre Loyola,George Wanderley,BRAZIL,1800 (3),17/04/2023,male
+Adrian Carambula,Alex Ranghieri,ITALY,1760 (2),17/04/2023,male
+Nils Ehlers,Clemens Wickler,GERMANY,1760 (2),17/04/2023,male
+Thomas Hodges,Zac Schubert,AUSTRALIA,1700 (4) ,17/04/2023,male
+Stefan Boermans,Yorick de Groot,NETHERLANDS,1660 (2),17/04/2023,male
+Vitor Felipe,Renato Lima,BRAZIL,1600 (3),17/04/2023,male
+Jorge Alayo,Noslen Diaz,CUBA,1600 (3) ,17/04/2023,male
+Martin Ermacora,Philipp Waller,AUSTRIA,1560 (4) ,17/04/2023,male
+Alex Brouwer,Robert Meeuwsen,NETHERLANDS,1520 (2),17/04/2023,male
+Piotr Kantor,Maciej Rudol,POLAND,1520 (3),17/04/2023,male
+Michal Bryl,Bartosz Losiak,POLAND,1500 (2),17/04/2023,male
+Daniele Lupo,Enrico Rossi,ITALY,1500 (3),17/04/2023,male
+Dan Dearing,Sam Schachter,CANADA,1460 (4) ,17/04/2023,male
+Esteban Grimalt,Marco Grimalt,CHILE,1360 (2),17/04/2023,male
+Sam Cottafava,Paolo Nicolai,ITALY,1360 (2),17/04/2023,male
+Tri Bourne,Chaim Schalk,USA,1360 (3),17/04/2023,male
+Andy Benesh,Miles Partain,USA,1280 (2),17/04/2023,male
+Kelly Cheng,Sara Hughes,USA,2560 (3),17/04/2023,female
+Talita Antunes,Thamela Coradelli,BRAZIL,2460 (5) ,17/04/2023,female
+Kristen Nuss,Taryn Kloth,USA,2160 (3),17/04/2023,female
+Miki Ishii,Sayaka Mizoe,JAPAN,2160 (5) ,17/04/2023,female
+Valentina Gottardi,Marta Menegatti,ITALY,2160 (3) ,17/04/2023,female
+Carolina Salgado,Barbara Seixas,BRAZIL,2120 (3),17/04/2023,female
+Mariafe Artacho,Taliqua Clancy,AUSTRALIA,2000 (2),17/04/2023,female
+Andressa Cavalcanti,Vitoria De Souza,BRAZIL,1980 (4) ,17/04/2023,female
+Raisa Schoon,Katja Stam,NETHERLANDS,1960 (2),17/04/2023,female
+Lezana Placette,Alexia Richard,FRANCE,1960 (4) ,17/04/2023,female
+Victoria Lopes,Taina Silva,BRAZIL,1940 (3) ,17/04/2023,female
+Terese Cannon,Sarah Sponcil,USA,1920 (3),17/04/2023,female
+Barbora Hermannova,Marie-Sara Stochlova,CZECH REPUBLIC,1920 (3) ,17/04/2023,female
+Esmee Bobner,Zoe Verge-Depre,SWITZERLAND,1860 (4) ,17/04/2023,female
+Duda Lisboa,Ana Patricia Silva,BRAZIL,1860 (2),17/04/2023,female
+Niina Ahtiainen,Taru Lahti,FINLAND,1760 (4) ,17/04/2023,female
+Hailey Harward,Kelley Kolinske,USA,1720 (4) ,17/04/2023,female
+Dorina Klinger,Ronja Klinger,AUSTRIA,1680 (4) ,17/04/2023,female
+Karla Borger,Sandra Ittlinger,GERMANY,1680 (3) ,17/04/2023,female
+Lili Fernandez,Paula Soria,SPAIN,1660 (4) ,17/04/2023,female
+Hegeile Almeida,Taiana Lima,BRAZIL,1640 (4) ,17/04/2023,female
+Melissa Humana-Paredes,Brandie Wilkerson,CANADA,1520 (2),17/04/2023,female
+Maria Carro,Angela Lobato,SPAIN,1480 (4) ,17/04/2023,female
+Toni Rodriguez,Savvy Simo,USA,1460 (3),17/04/2023,female
+David Ahman,Jonatan Hellvig,SWEDEN,3520 (4),10/05/2023,male
+Anders Mol,Christian Sorum,NORWAY,3400 (3),10/05/2023,male
+Adrian Gavira,Pablo Herrera,SPAIN,3220 (5),10/05/2023,male
+Evandro Goncalves,Arthur Mariano,BRAZIL,2680 (5),10/05/2023,male
+Nils Ehlers,Clemens Wickler,GERMANY,2520 (3),10/05/2023,male
+Michal Bryl,Bartosz Losiak,POLAND,2500 (3),10/05/2023,male
+Andre Loyola,George Wanderley,BRAZIL,2400 (4),10/05/2023,male
+Alex Brouwer,Robert Meeuwsen,NETHERLANDS,2280 (3),10/05/2023,male
+Stefan Boermans,Yorick de Groot,NETHERLANDS,2260 (3) ,10/05/2023,male
+Adrian Carambula,Alex Ranghieri,ITALY,2220 (3),10/05/2023,male
+Paul Burnett,Chris McHugh,AUSTRALIA,2280 (5),10/05/2023,male
+Tri Bourne,Chaim Schalk,USA,2120 (4),10/05/2023,male
+Vitor Felipe,Renato Lima,BRAZIL,2060 (4),10/05/2023,male
+Moritz Pristauz,Robin Seidl,AUSTRIA,2040 (4),10/05/2023,male
+Thomas Hodges,Zac Schubert,AUSTRALIA,2040 (5) ,10/05/2023,male
+Sam Cottafava,Paolo Nicolai,ITALY,1960 (3) ,10/05/2023,male
+Matthew Immers,Steven van de Velde,NETHERLANDS,1960 (3) ,10/05/2023,male
+Ondrej Perusic,David Schweiner,CZECH REPUBLIC,1960 (2) ,10/05/2023,male
+Theo Brunner,Trevor Crabb,USA,1960 (4),10/05/2023,male
+Julian Horl,Alex Horst,AUSTRIA,1940 (4),10/05/2023,male
+Dan Dearing,Sam Schachter,CANADA,1860 (5) ,10/05/2023,male
+Daniele Lupo,Enrico Rossi,ITALY,1840 (4) ,10/05/2023,male
+Esteban Grimalt,Marco Grimalt,CHILE,1760 (3) ,10/05/2023,male
+Jorge Alayo,Noslen Diaz,CUBA,1600 (3),10/05/2023,male
+Kelly Cheng,Sara Hughes,USA,3460 (4),10/05/2023,female
+Kristen Nuss,Taryn Kloth,USA,3360 (4),10/05/2023,female
+Mariafe Artacho,Taliqua Clancy,AUSTRALIA,3100 (3) ,10/05/2023,female
+Carolina Salgado,Barbara Seixas,BRAZIL,3100 (4),10/05/2023,female
+Duda Lisboa,Ana Patricia Silva,BRAZIL,2860 (3) ,10/05/2023,female
+Talita Antunes,Thamela Coradelli,BRAZIL,2800 (6),10/05/2023,female
+Valentina Gottardi,Marta Menegatti,ITALY,2650 (4) ,10/05/2023,female
+Raisa Schoon,Katja Stam,NETHERLANDS,2560 (3) ,10/05/2023,female
+Terese Cannon,Sarah Sponcil,USA,2520 (4),10/05/2023,female
+Andressa Cavalcanti,Vitoria De Souza,BRAZIL,2440 (5) ,10/05/2023,female
+Victoria Lopes,Taina Silva,BRAZIL,2400 (4) ,10/05/2023,female
+Esmee Bobner,Zoe Verge-Depre,SWITZERLAND,2360 (5) ,10/05/2023,female
+Lezana Placette,Alexia Richard,FRANCE,2300 (5) ,10/05/2023,female
+Karla Borger,Sandra Ittlinger,GERMANY,2280 (4) ,10/05/2023,female
+Miki Ishii,Sayaka Mizoe,JAPAN,2160 (5),10/05/2023,female
+Niina Ahtiainen,Taru Lahti,FINLAND,2160 (5) ,10/05/2023,female
+Tina Graudina,Anastasija Samoilova,LATVIA,2120 (3) ,10/05/2023,female
+Hailey Harward,Kelley Kolinske,USA,2060 (5),10/05/2023,female
+Lili Fernandez,Paula Soria,SPAIN,2060 (5),10/05/2023,female
+Hegeile Almeida,Taiana Lima,BRAZIL,1960 (5),10/05/2023,female
+Barbora Hermannova,Marie-Sara Stochlova,CZECH REPUBLIC,1920 (3),10/05/2023,female
+Xinyi Xia,Chen Xue,CHINA,1860 (3) ,10/05/2023,female
+Nina Brunner,Tanja Huberli,SWITZERLAND,1860 (2) ,10/05/2023,female
+Meimei Lin,Jinjin Zeng,CHINA,1800 (5) ,10/05/2023,female
+Anders Mol,Christian Sorum,NORWAY,4600 (4),05/06/2023,male
+David Ahman,Jonatan Hellvig,SWEDEN,4280 (4),05/06/2023,male
+Nils Ehlers,Clemens Wickler,GERMANY,3280 (4),05/06/2023,male
+Evandro Goncalves,Arthur Mariano,BRAZIL,3280 (6),05/06/2023,male
+Adrian Gavira,Pablo Herrera,SPAIN,3220 (5),05/06/2023,male
+Michal Bryl,Bartosz Losiak,POLAND,3100 (4),05/06/2023,male
+Adrian Carambula,Alex Ranghieri,ITALY,2980 (4),05/06/2023,male
+Ondrej Perusic,David Schweiner,CZECH REPUBLIC,2860 (3),05/06/2023,male
+Andre Loyola,George Wanderley,BRAZIL,2860 (5),05/06/2023,male
+Alex Brouwer,Robert Meeuwsen,NETHERLANDS,2740 (4),05/06/2023,male
+Vitor Felipe,Renato Lima,BRAZIL,2660 (5),05/06/2023,male
+Tri Bourne,Chaim Schalk,USA,2460 (5),05/06/2023,male
+Moritz Pristauz,Robin Seidl,AUSTRIA,2440 (5),05/06/2023,male
+Theo Brunner,Trevor Crabb,USA,2420 (5),05/06/2023,male
+Sam Cottafava,Paolo Nicolai,ITALY,2360 (4),05/06/2023,male
+Matthew Immers,Steven van de Velde,NETHERLANDS,2300 (4),05/06/2023,male
+Andy Benesh,Miles Partain,USA,2280 (3),05/06/2023,male
+Julian Horl,Alex Horst,AUSTRIA,2280 (5),05/06/2023,male
+Stefan Boermans,Yorick de Groot,NETHERLANDS,2260 (3),05/06/2023,male
+Esteban Grimalt,Marco Grimalt,CHILE,2220 (4),05/06/2023,male
+Paul Burnett,Chris McHugh,AUSTRALIA,2180 (5),05/06/2023,male
+Cherif Samba,Ahmed Tijan,QATAR,2160 (3),05/06/2023,male
+Thomas Hodges,Zac Schubert,AUSTRALIA,2040 (5),05/06/2023,male
+Arnaud Gauthier,Youssef Krou,FRANCE,1980 (3),05/06/2023,male
+Kelly Cheng,Sara Hughes,USA,4220 (5),05/06/2023,female
+Kristen Nuss,Taryn Kloth,USA,4120 (5),05/06/2023,female
+Duda Lisboa,Ana Patricia Silva,BRAZIL,4060 (4),05/06/2023,female
+Mariafe Artacho,Taliqua Clancy,AUSTRALIA,3700 (4),05/06/2023,female
+Terese Cannon,Sarah Sponcil,USA,3620 (5),05/06/2023,female
+Carolina Salgado,Barbara Seixas,BRAZIL,3340 (5),05/06/2023,female
+Raisa Schoon,Katja Stam,NETHERLANDS,3160 (4),05/06/2023,female
+Valentina Gottardi,Marta Menegatti,ITALY,3020 (5),05/06/2023,female
+Talita Antunes,Thamela Coradelli,BRAZIL,2800 (6),05/06/2023,female
+Nina Brunner,Tanja Huberli,SWITZERLAND,2760 (3),05/06/2023,female
+Esmee Bobner,Zoe Verge-Depre,SWITZERLAND,2760 (6),05/06/2023,female
+Victoria Lopes,Taina Silva,BRAZIL,2740 (5),05/06/2023,female
+Tina Graudina,Anastasija Samoilova,LATVIA,2580 (4),05/06/2023,female
+Melissa Humana-Paredes,Brandie Wilkerson,CANADA,2520 (3),05/06/2023,female
+Barbora Hermannova,Marie-Sara Stochlova,CZECH REPUBLIC,2500 (4),05/06/2023,female
+Miki Ishii,Sayaka Mizoe,JAPAN,2500 (6),05/06/2023,female
+Andressa Cavalcanti,Vitoria De Souza,BRAZIL,2440 (5),05/06/2023,female
+Lezana Placette,Alexia Richard,FRANCE,2300 (5),05/06/2023,female
+Karla Borger,Sandra Ittlinger,GERMANY,2280 (4),05/06/2023,female
+Niina Ahtiainen,Taru Lahti,FINLAND,2160 (5),05/06/2023,female
+Betsi Flint,Julia Scoles,USA,2120 (4),05/06/2023,female
+Hailey Harward,Kelley Kolinske,USA,2060 (5),05/06/2023,female
+Lili Fernandez,Paula Soria,SPAIN,2060 (5),05/06/2023,female
+Svenja Muller,Cinja Tillman,GERMANY,1980 (3),05/06/2023,female
+Anders Mol,Christian Sorum,NORWAY,4600 (4),19/06/2023,male
+David Ahman,Jonatan Hellvig,SWEDEN,4280 (4),19/06/2023,male
+Evandro Goncalves,Arthur Mariano,BRAZIL,3960 (7),19/06/2023,male
+Andre Loyola,George Wanderley,BRAZIL,3620 (6),19/06/2023,male
+Vitor Felipe,Renato Lima,BRAZIL,3380 (6),19/06/2023,male
+Nils Ehlers,Clemens Wickler,GERMANY,3280 (4),19/06/2023,male
+Adrian Gavira,Pablo Herrera,SPAIN,3220 (5),19/06/2023,male
+Michal Bryl,Bartosz Losiak,POLAND,3100 (4),19/06/2023,male
+Tri Bourne,Chaim Schalk,USA,3060 (6),19/06/2023,male
+Theo Brunner,Trevor Crabb,USA,3020 (6),19/06/2023,male
+Adrian Carambula,Alex Ranghieri,ITALY,2980 (4),19/06/2023,male
+Matthew Immers,Steven van de Velde,NETHERLANDS,2900 (5),19/06/2023,male
+Ondrej Perusic,David Schweiner,CZECH REPUBLIC,2860 (3),19/06/2023,male
+Thomas Hodges,Zachery Schubert,AUSTRALIA,2840 (6),19/06/2023,male
+Sam Cottafava,Paolo Nicolai,ITALY,2820 (5),19/06/2023,male
+Alex Brouwer,Robert Meeuwsen,NETHERLANDS,2740 (4),19/06/2023,male
+Moritz Pristauz,Robin Seidl,AUSTRIA,2740 (6),19/06/2023,male
+Julian Horl,Alex Horst,AUSTRIA,2740 (6),19/06/2023,male
+Paul Burnett,Chris McHugh,AUSTRALIA,2400 (6),19/06/2023,male
+Andy Benesh,Miles Partain,USA,2280 (3),19/06/2023,male
+Stefan Boermans,Yorick de Groot,NETHERLANDS,2260 (3),19/06/2023,male
+Esteban Grimalt,Marco Grimalt,CHILE,2220 (4),19/06/2023,male
+Daniele Lupo,Enrico Rossi,ITALY,2200 (5),19/06/2023,male
+Cherif Samba,Ahmed Tijan,QATAR,2160 (3),19/06/2023,male
+Kelly Cheng,Sara Hughes,USA,4220 (5),19/06/2023,female
+Kristen Nuss,Taryn Kloth,USA,4120 (5),19/06/2023,female
+Duda Lisboa,Ana Patricia Silva,BRAZIL,4060 (4),19/06/2023,female
+Mariafe Artacho,Taliqua Clancy,AUSTRALIA,3700 (4),19/06/2023,female
+Terese Cannon,Sarah Sponcil,USA,3620 (5),19/06/2023,female
+Esmee Bobner,Zoe Verge-Depre,SWITZERLAND,3520 (7),19/06/2023,female
+Victoria Lopes,Taina Silva,BRAZIL,3420 (6),19/06/2023,female
+Carolina Salgado,Barbara Seixas,BRAZIL,3340 (5),19/06/2023,female
+Melissa Humana-Paredes,Brandie Wilkerson,CANADA,3320 (4),19/06/2023,female
+Tina Graudina,Anastasija Samoilova,LATVIA,3300 (5),19/06/2023,female
+Talita Antunes,Thamela Coradelli,BRAZIL,3260 (7),19/06/2023,female
+Raisa Schoon,Katja Stam,NETHERLANDS,3160 (4),19/06/2023,female
+Andressa Cavalcanti,Vitoria De Souza,BRAZIL,3040 (6),19/06/2023,female
+Valentina Gottardi,Marta Menegatti,ITALY,3020 (5),19/06/2023,female
+Nina Brunner,Tanja Huberli,SWITZERLAND,2760 (3),19/06/2023,female
+Niina Ahtiainen,Taru Lahti,FINLAND,2620 (6),19/06/2023,female
+Betsi Flint,Julia Scoles,USA,2580 (5),19/06/2023,female
+Barbora Hermannova,Marie-Sara Stochlova,CZECH REPUBLIC,2500 (4),19/06/2023,female
+Miki Ishii,Sayaka Mizoe,JAPAN,2500 (6),19/06/2023,female
+Xinyi Xia,Chen Xue,CHINA,2460 (4),19/06/2023,female
+Hailey Harward,Kelley Kolinske,USA,2360 (6),19/06/2023,female
+Lezana Placette,Alexia Richard,FRANCE,2300 (5),19/06/2023,female
+Karla Borger,Sandra Ittlinger,GERMANY,2280 (4),19/06/2023,female
+Toni Rodriguez,Savvy Simo,USA,2080 (5),19/06/2023,female
+Anders Mol,Christian Sorum,NORWAY,5700 (5),10/07/2023,male
+Andre Loyola,George Wanderley,BRAZIL,4620 (7),10/07/2023,male
+Evandro Goncalves,Arthur Mariano,BRAZIL,4360 (8),10/07/2023,male
+David Ahman,Jonatan Hellvig,SWEDEN,4280 (4),10/07/2023,male
+Michal Bryl,Bartosz Losiak,POLAND,4000 (5),10/07/2023,male
+Nils Ehlers,Clemens Wickler,GERMANY,3880 (5),10/07/2023,male
+Adrian Carambula,Alex Ranghieri,ITALY,3740 (5),10/07/2023,male
+Adrian Gavira,Pablo Herrera,SPAIN,3680 (6),10/07/2023,male
+Andy Benesh,Miles Partain,USA,3480 (4),10/07/2023,male
+Vitor Felipe,Renato Lima,BRAZIL,3380 (6),10/07/2023,male
+Alex Brouwer,Robert Meeuwsen,NETHERLANDS,3340 (5),10/07/2023,male
+Julian Horl,Alex Horst,AUSTRIA,3340 (7),10/07/2023,male
+Matthew Immers,Steven van de Velde,NETHERLANDS,3300 (6),10/07/2023,male
+Tri Bourne,Chaim Schalk,USA,3060 (6),10/07/2023,male
+Theo Brunner,Trevor Crabb,USA,3020 (6),10/07/2023,male
+Esteban Grimalt,Marco Grimalt,CHILE,2980 (5),10/07/2023,male
+Cherif Samba,Ahmed Tijan,QATAR,2920 (4),10/07/2023,male
+Ondrej Perusic,David Schweiner,CZECH REPUBLIC,2860 (3),10/07/2023,male
+Thomas Hodges,Zachery Schubert,AUSTRALIA,2840 (6),10/07/2023,male
+Sam Cottafava,Paolo Nicolai,ITALY,2820 (5),10/07/2023,male
+Moritz Pristauz,Robin Seidl,AUSTRIA,2740 (6),10/07/2023,male
+Daniele Lupo,Enrico Rossi,ITALY,2660 (6),10/07/2023,male
+Arnaud Gauthier-Rat,Youssef Krou,FRANCE,2440 (4),10/07/2023,male
+Paul Burnett,Chris McHugh,AUSTRALIA,2400 (6),10/07/2023,male
+Kelly Cheng,Sara Hughes,USA,5320 (6),10/07/2023,female
+Duda Lisboa,Ana Patricia Silva,BRAZIL,5260 (5),10/07/2023,female
+Kristen Nuss,Taryn Kloth,USA,5120 (6),10/07/2023,female
+Mariafe Artacho,Taliqua Clancy,AUSTRALIA,4460 (5),10/07/2023,female
+Terese Cannon,Sarah Sponcil,USA,4180 (6),10/07/2023,female
+Carolina Salgado,Barbara Seixas,BRAZIL,4100 (6),10/07/2023,female
+Melissa Humana-Paredes,Brandie Wilkerson,CANADA,4080 (5),10/07/2023,female
+Esmee Bobner,Zoe Verge-Depre,SWITZERLAND,3980 (8),10/07/2023,female
+Tina Graudina,Anastasija Samoilova,LATVIA,3900 (6),10/07/2023,female
+Victoria Lopes,Taina Silva,BRAZIL,3820 (7),10/07/2023,female
+Valentina Gottardi,Marta Menegatti,ITALY,3780 (6),10/07/2023,female
+Raisa Schoon,Katja Stam,NETHERLANDS,3760 (5),10/07/2023,female
+Talita Antunes,Thamela Coradelli,BRAZIL,3260 (7),10/07/2023,female
+Nina Brunner,Tanja Huberli,SWITZERLAND,3220 (4),10/07/2023,female
+Betsi Flint,Julia Scoles,USA,3180 (6),10/07/2023,female
+Andressa Cavalcanti,Vitoria De Souza,BRAZIL,3040 (6),10/07/2023,female
+Niina Ahtiainen,Taru Lahti,FINLAND,2960 (7),10/07/2023,female
+Barbora Hermannova,Marie-Sara Stochlova,CZECH REPUBLIC,2900 (6),10/07/2023,female
+Svenja Muller,Cinja Tillman,GERMANY,2880 (4),10/07/2023,female
+Xinyi Xia,Chen Xue,CHINA,2860 (5),10/07/2023,female
+Miki Ishii,Sayaka Mizoe,JAPAN,2500 (6),10/07/2023,female
+Anouk Verge-Depre,Joana Mader,SWITZERLAND,2440 (4),10/07/2023,female
+Lili Fernandez,Paula Soria,SPAIN,2400 (6),10/07/2023,female
+Hailey Harward,Kelley Kolinske,USA,2360 (6),10/07/2023,female
+Anders Mol,Christian Sorum,NORWAY,5700 (5),17/07/2023,male
+Evandro Goncalves,Arthur Mariano,BRAZIL,5080 (9),17/07/2023,male
+Andre Loyola,George Wanderley,BRAZIL,4620 (7),17/07/2023,male
+David Ahman,Jonatan Hellvig,SWEDEN,4280 (4),17/07/2023,male
+Adrian Gavira,Pablo Herrera,SPAIN,4280 (7),17/07/2023,male
+Julian Horl,Alex Horst,AUSTRIA,4100 (8),17/07/2023,male
+Michal Bryl,Bartosz Losiak,POLAND,4000 (5),17/07/2023,male
+Nils Ehlers,Clemens Wickler,GERMANY,3880 (5),17/07/2023,male
+Vitor Felipe,Renato Lima,BRAZIL,3840 (7),17/07/2023,male
+Theo Brunner,Trevor Crabb,USA,3820 (7),17/07/2023,male
+Adrian Carambula,Alex Ranghieri,ITALY,3740 (5),17/07/2023,male
+Tri Bourne,Chaim Schalk,USA,3660 (7),17/07/2023,male
+Matthew Immers,Steven van de Velde,NETHERLANDS,3600 (7),17/07/2023,male
+Andy Benesh,Miles Partain,USA,3480 (4),17/07/2023,male
+Alex Brouwer,Robert Meeuwsen,NETHERLANDS,3340 (5),17/07/2023,male
+Thomas Hodges,Zachery Schubert,AUSTRALIA,3300 (7),17/07/2023,male
+Sam Cottafava,Paolo Nicolai,ITALY,3280 (6),17/07/2023,male
+Esteban Grimalt,Marco Grimalt,CHILE,2980 (5),17/07/2023,male
+Cherif Samba,Ahmed Tijan,QATAR,2920 (4),17/07/2023,male
+Moritz Pristauz,Robin Seidl,AUSTRIA,2880 (7),17/07/2023,male
+Ondrej Perusic,David Schweiner,CZECH REPUBLIC,2860 (3),17/07/2023,male
+Paul Burnett,Chris McHugh,AUSTRALIA,2860 (7),17/07/2023,male
+Daniele Lupo,Enrico Rossi,ITALY,2800 (7),17/07/2023,male
+Hendrik Mol,Mathias Berntsen,NORWAY,2570 (6),17/07/2023,male
+Kelly Cheng,Sara Hughes,USA,5320 (6),17/07/2023,female
+Duda Lisboa,Ana Patricia Silva,BRAZIL,5260 (5),17/07/2023,female
+Kristen Nuss,Taryn Kloth,USA,5120 (6),17/07/2023,female
+Carolina Salgado,Barbara Seixas,BRAZIL,4900 (7),17/07/2023,female
+Mariafe Artacho,Taliqua Clancy,AUSTRALIA,4460 (5),17/07/2023,female
+Victoria Lopes,Taina Silva,BRAZIL,4280 (8),17/07/2023,female
+Terese Cannon,Sarah Sponcil,USA,4180 (6),17/07/2023,female
+Melissa Humana-Paredes,Brandie Wilkerson,CANADA,4080 (5),17/07/2023,female
+Esmee Bobner,Zoe Verge-Depre,SWITZERLAND,3980 (8),17/07/2023,female
+Tina Graudina,Anastasija Samoilova,LATVIA,3900 (6),17/07/2023,female
+Andressa Cavalcanti,Vitoria De Souza,BRAZIL,3800 (7),17/07/2023,female
+Valentina Gottardi,Marta Menegatti,ITALY,3780 (6),17/07/2023,female
+Raisa Schoon,Katja Stam,NETHERLANDS,3760 (5),17/07/2023,female
+Betsi Flint,Julia Scoles,USA,3640 (7),17/07/2023,female
+Xinyi Xia,Chen Xue,CHINA,3540 (6),17/07/2023,female
+Niina Ahtiainen,Taru Lahti,FINLAND,3420 (8),17/07/2023,female
+Talita Antunes,Thamela Coradelli,BRAZIL,3260 (7),17/07/2023,female
+Nina Brunner,Tanja Huberli,SWITZERLAND,3220 (4),17/07/2023,female
+Barbora Hermannova,Marie-Sara Stochlova,CZECH REPUBLIC,3200 (7),17/07/2023,female
+Lezanna Placette,Alexia Richard,FRANCE,2900 (6),17/07/2023,female
+Svenja Muller,Cinja Tillman,GERMANY,2880 (4),17/07/2023,female
+Lili Fernandez,Paula Soria,SPAIN,2700 (7),17/07/2023,female
+Megan Kraft,Emily Stockman,USA,2660 (6),17/07/2023,female
+Miki Ishii,Sayaka Mizoe,JAPAN,2500 (6),17/07/2023,female
+Anders Mol,Christian Sorum,NORWAY,5700 (5),25/07/2023,male
+Andre Loyola,George Wanderley,BRAZIL,5420 (8),25/07/2023,male
+Evandro Goncalves,Arthur Mariano,BRAZIL,5080 (9),25/07/2023,male
+Adrian Gavira,Pablo Herrera,SPAIN,4580 (8),25/07/2023,male
+Thomas Hodges,Zachery Schubert,AUSTRALIA,4400 (9),25/07/2023,male
+David Ahman,Jonatan Hellvig,SWEDEN,4280 (4),25/07/2023,male
+Esteban Grimalt,Marco Grimalt,CHILE,4200 (7),25/07/2023,male
+Theo Brunner,Trevor Crabb,USA,4180 (8),25/07/2023,male
+Vitor Felipe,Renato Lima,BRAZIL,4140 (8),25/07/2023,male
+Tri Bourne,Chaim Schalk,USA,4120 (8),25/07/2023,male
+Julian Horl,Alex Horst,AUSTRIA,4100 (8),25/07/2023,male
+Paul Burnett,Chris McHugh,AUSTRALIA,4080 (9),25/07/2023,male
+Michal Bryl,Bartosz Losiak,POLAND,4000 (5),25/07/2023,male
+Sam Cottafava,Paolo Nicolai,ITALY,4000 (7),25/07/2023,male
+Nils Ehlers,Clemens Wickler,GERMANY,3880 (5),25/07/2023,male
+Adrian Carambula,Alex Ranghieri,ITALY,3740 (5),25/07/2023,male
+Matthew Immers,Steven van de Velde,NETHERLANDS,3600 (7),25/07/2023,male
+Cherif Samba,Ahmed Tijan,QATAR,3520 (5),25/07/2023,male
+Andy Benesh,Miles Partain,USA,3480 (4),25/07/2023,male
+Nico Capogrosso,Tomas Capogrosso,Argentina,3440 (9),25/07/2023,male
+Alex Brouwer,Robert Meeuwsen,NETHERLANDS,3340 (5),25/07/2023,male
+Hendrik Mol,Mathias Berntsen,NORWAY,3330 (7),25/07/2023,male
+Moritz Pristauz,Robin Seidl,AUSTRIA,3020 (8),25/07/2023,male
+Ondrej Perusic,David Schweiner,CZECH REPUBLIC,2860 (3),25/07/2023,male
+Carolina Salgado,Barbara Seixas,BRAZIL,6500 (9),25/07/2023,female
+Victoria Lopes,Taina Silva,BRAZIL,5460 (9),25/07/2023,female
+Kelly Cheng,Sara Hughes,USA,5320 (6),25/07/2023,female
+Duda Lisboa,Ana Patricia Silva,BRAZIL,5260 (5),25/07/2023,female
+Kristen Nuss,Taryn Kloth,USA,5120 (6),25/07/2023,female
+Esmee Bobner,Zoe Verge-Depre,SWITZERLAND,4660 (9),25/07/2023,female
+Terese Cannon,Sarah Sponcil,USA,4640 (7),25/07/2023,female
+Valentina Gottardi,Marta Menegatti,ITALY,4540 (7),25/07/2023,female
+Mariafe Artacho,Taliqua Clancy,AUSTRALIA,4460 (5),25/07/2023,female
+Xinyi Xia,Chen Xue,CHINA,4340 (7),25/07/2023,female
+Andressa Cavalcanti,Vitoria De Souza,BRAZIL,4260 (8),25/07/2023,female
+Betsi Flint,Julia Scoles,USA,4240 (8),25/07/2023,female
+Melissa Humana-Paredes,Brandie Wilkerson,CANADA,4080 (5),25/07/2023,female
+Barbora Hermannova,Marie-Sara Stochlova,CZECH REPUBLIC,3920 (8),25/07/2023,female
+Tina Graudina,Anastasija Samoilova,LATVIA,3900 (6),25/07/2023,female
+Raisa Schoon,Katja Stam,NETHERLANDS,3760 (5),25/07/2023,female
+Talita Antunes,Thamela Coradelli,BRAZIL,3720 (8),25/07/2023,female
+Niina Ahtiainen,Taru Lahti,FINLAND,3640 (9),25/07/2023,female
+Nina Brunner,Tanja Huberli,SWITZERLAND,3220 (4),25/07/2023,female
+Miki Ishii,Sayaka Mizoe,JAPAN,3180 (7),25/07/2023,female
+Lili Fernandez,Paula Soria,SPAIN,3000 (8),25/07/2023,female
+Lezanna Placette,Alexia Richard,FRANCE,2900 (6),25/07/2023,female
+Svenja Muller,Cinja Tillman,GERMANY,2880 (4),25/07/2023,female
+Megan Kraft,Emily Stockman,USA,2880 (7),25/07/2023,female
+Anders Mol,Christian Sorum,NORWAY,6900 (6),31/07/2023,male
+Evandro Goncalves,Arthur Mariano,BRAZIL,5980 (10),31/07/2023,male
+Andre Loyola,George Wanderley,BRAZIL,5880 (9),31/07/2023,male
+Adrian Gavira,Pablo Herrera,SPAIN,4980 (9),31/07/2023,male
+Vitor Felipe,Renato Lima,BRAZIL,4900 (9),31/07/2023,male
+Adrian Carambula,Alex Ranghieri,ITALY,4740 (6),31/07/2023,male
+Nils Ehlers,Clemens Wickler,GERMANY,4640 (6),31/07/2023,male
+Andy Benesh,Miles Partain,USA,4580 (5),31/07/2023,male
+Paul Burnett,Chris McHugh,AUSTRALIA,4480 (10),31/07/2023,male
+Tri Bourne,Chaim Schalk,USA,4460 (9),31/07/2023,male
+Sam Cottafava,Paolo Nicolai,ITALY,4400 (8),31/07/2023,male
+Thomas Hodges,Zachery Schubert,AUSTRALIA,4400 (9),31/07/2023,male
+David Ahman,Jonatan Hellvig,SWEDEN,4280 (4),31/07/2023,male
+Cherif Samba,Ahmed Tijan,QATAR,4280 (6),31/07/2023,male
+Esteban Grimalt,Marco Grimalt,CHILE,4200 (7),31/07/2023,male
+Theo Brunner,Trevor Crabb,USA,4180 (8),31/07/2023,male
+Alex Brouwer,Robert Meeuwsen,NETHERLANDS,4100 (6),31/07/2023,male
+Julian Horl,Alex Horst,AUSTRIA,4100 (8),31/07/2023,male
+Michal Bryl,Bartosz Losiak,POLAND,4000 (5),31/07/2023,male
+Nico Capogrosso,Tomas Capogrosso,Argentina,3780 (10),31/07/2023,male
+Matthew Immers,Steven van de Velde,NETHERLANDS,3600 (7),31/07/2023,male
+Hendrik Mol,Mathias Berntsen,NORWAY,3330 (7),31/07/2023,male
+Daniele Lupo,Enrico Rossi,ITALY,3140 (8),31/07/2023,male
+Chase Budinger,Miles Evans,USA,3140 (7),31/07/2023,male
+Carolina Salgado,Barbara Seixas,BRAZIL,7100 (10),31/07/2023,female
+Duda Lisboa,Ana Patricia Silva,BRAZIL,6020 (6),31/07/2023,female
+Kelly Cheng,Sara Hughes,USA,5920 (7),31/07/2023,female
+Kristen Nuss,Taryn Kloth,USA,5880 (7),31/07/2023,female
+Victoria Lopes,Taina Silva,BRAZIL,5800 (10),31/07/2023,female
+Xinyi Xia,Chen Xue,CHINA,5340 (8),31/07/2023,female
+Betsi Flint,Julia Scoles,USA,5340 (9),31/07/2023,female
+Melissa Humana-Paredes,Brandie Wilkerson,CANADA,5280 (6),31/07/2023,female
+Esmee Bobner,Zoe Verge-Depre,SWITZERLAND,5120 (10),31/07/2023,female
+Terese Cannon,Sarah Sponcil,USA,5100 (8),31/07/2023,female
+Mariafe Artacho,Taliqua Clancy,AUSTRALIA,5060 (6),31/07/2023,female
+Raisa Schoon,Katja Stam,NETHERLANDS,4660 (6),31/07/2023,female
+Andressa Cavalcanti,Vitoria De Souza,BRAZIL,4660 (9),31/07/2023,female
+Valentina Gottardi,Marta Menegatti,ITALY,4540 (7),31/07/2023,female
+Talita Antunes,Thamela Coradelli,BRAZIL,4180 (9),31/07/2023,female
+Barbora Hermannova,Marie-Sara Stochlova,CZECH REPUBLIC,3920 (8),31/07/2023,female
+Tina Graudina,Anastasija Samoilova,LATVIA,3900 (6),31/07/2023,female
+Niina Ahtiainen,Taru Lahti,FINLAND,3640 (9),31/07/2023,female
+Miki Ishii,Sayaka Mizoe,JAPAN,3520 (8),31/07/2023,female
+Jagoda Gruszczynska,Ola Wchowicz,POLAND,3360 (7),31/07/2023,female
+Svenja Muller,Cinja Tillman,GERMANY,3280 (5),31/07/2023,female
+Nina Brunner,Tanja Huberli,SWITZERLAND,3220 (4),31/07/2023,female
+Lili Fernandez,Paula Soria,SPAIN,3000 (8),31/07/2023,female
+Agatha,Rebecca Cavalcanti,BRAZIL,3000 (5),31/07/2023,female
