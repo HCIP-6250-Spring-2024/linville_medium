@@ -81,9 +81,9 @@ def random_walk_simple(hiker,N=1,end_point_only=False):
     return trails
 
 
-def get_elevation_grid(hiker,grid_range=6000,grid_resolution=10,recache=False):
+def get_elevation_grid(hiker,grid_range=6000,grid_resolution=20,recache=False):
     """Query service using lat, lon. add the elevation values as a new column.
-        Note that this API only allows 100 locations per request. Hence, for a higher number of rows,
+        Note that this API only allows batch_size locations per request. Hence, for a higher number of rows,
         it must be broken down into different requests.
         Source (modified from):
         https://gis.stackexchange.com/questions/338392/getting-elevation-for-multiple-lat-long-coordinates-in-python
@@ -92,14 +92,16 @@ def get_elevation_grid(hiker,grid_range=6000,grid_resolution=10,recache=False):
     """
     url = r'https://epqs.nationalmap.gov/v1/json?'
     #cache_name = './PycharmProjects/medium/scripts/elevation_res10m_v2.csv'
-    #cache_name = 'elevation_res10m_v2.csv'
     cache_name = 'elevation_res10m_v3.csv'
-
+    batch_size=50
     grid_N = int(grid_range / grid_resolution)
     if not os.path.isfile(cache_name) and os.path.isfile('./PycharmProjects/medium/scripts/' + cache_name):
         cache_name='./PycharmProjects/medium/scripts/' + cache_name
+    else:
+        print("Loading cache from local diretory %s"%os.getcwd())
 
     if os.path.isfile(cache_name):
+        print("Loading cache file %s"%cache_name)
         df = pd.read_csv(cache_name, index_col=None)
     else:
         # Define grid for elevation data based on function parameters
@@ -114,15 +116,18 @@ def get_elevation_grid(hiker,grid_range=6000,grid_resolution=10,recache=False):
                 grid.append([lat,long, east_offset * grid_resolution, south_offset * grid_resolution])
         df = pd.DataFrame(grid, columns=['latitude', 'longitude', 'east_offset', 'south_offset'])
         df['elev_meters'] = np.nan
-        df['el_query'] = np.floor(df.index / 100)
+        df['el_query'] = np.floor(df.index / batch_size)
     print("Total latitude points in the grid =%s"%df.latitude.nunique())
     print("Total longitude points in the grid =%s" % df.longitude.nunique())
+    print("df.shape=%s"%str(df.shape))
+    missing = df['elev_meters'].count() / len(df)
+    print(" %0.3f valid elevation data (N=%s)" % (missing, len(df)))
     assert df.latitude.nunique()==df.longitude.nunique(), "Lat/Longitude mismatch !"
 
     if recache:
         C = df['el_query'].nunique()
         init = 0
-        print("Querying elevation data for grid size=%s 100-batch queries=%s grid_N=%s (grid_N^2= %s ) " % (len(df), C,grid_N,grid_N**2))
+        print("Querying elevation data for grid size=%s %s-batch queries=%s grid_N=%s (grid_N^2= %s ) " % (len(df), batch_size,C,grid_N,grid_N**2))
         start = time.time()
         q = 0
         for q, query_df in df[df['elev_meters'].isna()].groupby('el_query'):
@@ -130,10 +135,14 @@ def get_elevation_grid(hiker,grid_range=6000,grid_resolution=10,recache=False):
             for lat, lon in zip(query_df['latitude'], query_df['longitude']):
                 params = {'output': 'json', 'x': lon, 'y': lat, 'units': 'Meters'}
                 result = requests.get((url + urllib.parse.urlencode(params)))
-                rdict = result.json()
-                if 'value' in rdict:
-                    elevations.append(rdict['value'])
-                else:
+                result.raise_for_status()  # raises exception when not a 2xx response
+                if result.status_code in [204,404]:
+                    continue
+                try:
+                    rdict = result.json()
+                    if 'value' in rdict:
+                        elevations.append(rdict['value'])
+                except :
                     elevations.append(np.nan)
                 init = 1
             if init:
@@ -143,6 +152,7 @@ def get_elevation_grid(hiker,grid_range=6000,grid_resolution=10,recache=False):
             df.loc[query_df.index, 'elev_meters'] = elevations
             missing = df['elev_meters'].count() / len(df)
             print("Got %0.3f valid elevation data (N=%s) from query %s" % (missing, len(query_df), q))
+            time.sleep(5)
 
         print("Finished querying in %3f minutes" % ((time.time() - start) / 60))
         missing = df['elev_meters'].count() / len(df)
