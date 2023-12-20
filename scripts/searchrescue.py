@@ -153,6 +153,7 @@ def get_elevation_grid(hiker,grid_range=6000,grid_resolution=20,recache=False):
             missing = df['elev_meters'].count() / len(df)
             print("Got %0.3f valid elevation data (N=%s) from query %s" % (missing, len(query_df), q))
             time.sleep(5)
+            df.to_csv(cache_name, index=False)
 
         print("Finished querying in %3f minutes" % ((time.time() - start) / 60))
         missing = df['elev_meters'].count() / len(df)
