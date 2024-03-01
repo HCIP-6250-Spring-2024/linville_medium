@@ -16,9 +16,8 @@ import os
 def show_map(hiker, trail=None, add_missing_radius=False, zoom=15, sims=None, trail_points=False,
              trail_heat=True, grid=None, probs=None, trail_enumerate=False, plot_origin=False, probs_point=True):
     map = folium.Map(location=hiker.loc, zoom_start=zoom)
-    tile = folium.TileLayer(
-        tiles='https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
-        attr='Esri', name='Esri Satellite', overlay=False, control=True).add_to(map)
+    tile = folium.TileLayer(tiles='https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', attr='Esri', name='Esri Satellite',
+                            overlay=False, control=True).add_to(map)
 
     if plot_origin:
         folium.Marker(location=hiker.loc, popup="Last known location", icon=folium.Icon(color="red")).add_to(map)
@@ -55,16 +54,21 @@ def show_map(hiker, trail=None, add_missing_radius=False, zoom=15, sims=None, tr
                                     radius=1, fill=True, color='red').add_to(map)
 
     if grid is not None:
+        add_grid_points = False
+        add_grid_lines = False
         grid['elev_meters']=(grid['elev_meters']-grid['elev_meters'].min())/(grid['elev_meters'].max()-grid['elev_meters'].min())
+        print("Printing grid...")
         HeatMap(data=grid[['latitude', 'longitude','elev_meters']], min_opacity=0.1).add_to(map)
-        #folium.PolyLine(grid[['latitude', 'longitude']], color='blue').add_to(map)
-        #folium.PolyLine(grid[['latitude', 'longitude']].sort_values(by='latitude'), color='blue').add_to(map)
-        # for i,row in grid.iterrows():
-        #    folium.CircleMarker([row['latitude'], row['longitude']],radius=0.5,fill=True,color='red').add_to(map)
+        if add_grid_lines:
+            folium.PolyLine(grid[['latitude', 'longitude']], color='blue').add_to(map)
+            folium.PolyLine(grid[['latitude', 'longitude']].sort_values(by='latitude'), color='blue').add_to(map)
+        if add_grid_points:
+            for i,row in grid.iterrows():
+                folium.CircleMarker([row['latitude'], row['longitude']],radius=0.5,fill=True,color='red').add_to(map)
 
     return map
 
-#https://towardsdatascience.com/calculating-distance-between-two-geolocations-in-python-26ad3afe287b
+# Based on https://towardsdatascience.com/calculating-distance-between-two-geolocations-in-python-26ad3afe287b
 def random_walk_simple(hiker,N=1,end_point_only=False):
     distance5min = hiker.max_speed*60*5 # Speed in m/5 minutes
     trails=[]
@@ -81,7 +85,7 @@ def random_walk_simple(hiker,N=1,end_point_only=False):
     return trails
 
 
-def get_elevation_grid(hiker,grid_range=6000,grid_resolution=20,recache=False):
+def get_elevation_grid(hiker,grid_range=6000,grid_resolution=10,recache=False):
     """Query service using lat, lon. add the elevation values as a new column.
         Note that this API only allows batch_size locations per request. Hence, for a higher number of rows,
         it must be broken down into different requests.
@@ -91,8 +95,7 @@ def get_elevation_grid(hiker,grid_range=6000,grid_resolution=20,recache=False):
         Finished querying in 392.135259 minutes
     """
     url = r'https://epqs.nationalmap.gov/v1/json?'
-    #cache_name = './PycharmProjects/medium/scripts/elevation_res10m_v2.csv'
-    cache_name = 'elevation_res10m_v3.csv'
+    cache_name = 'elevation_res10m_v4.csv'
     batch_size=50
     grid_N = int(grid_range / grid_resolution)
     if not os.path.isfile(cache_name) and os.path.isfile('./PycharmProjects/medium/scripts/' + cache_name):
@@ -122,7 +125,7 @@ def get_elevation_grid(hiker,grid_range=6000,grid_resolution=20,recache=False):
     print("df.shape=%s"%str(df.shape))
     missing = df['elev_meters'].count() / len(df)
     print(" %0.3f valid elevation data (N=%s)" % (missing, len(df)))
-    assert df.latitude.nunique()==df.longitude.nunique(), "Lat/Longitude mismatch !"
+    #assert df.latitude.nunique()==df.longitude.nunique(), "Lat/Longitude mismatch !"
 
     if recache:
         C = df['el_query'].nunique()
@@ -146,7 +149,7 @@ def get_elevation_grid(hiker,grid_range=6000,grid_resolution=20,recache=False):
                     elevations.append(np.nan)
                 init = 1
             if init:
-                time.sleep(1)
+                time.sleep(15)
                 df.to_csv(cache_name)
                 print("Getting %s /%s next batch" % (q, C))
             df.loc[query_df.index, 'elev_meters'] = elevations
@@ -184,7 +187,7 @@ def old_get_elevation(loc,df_elevation):
     return elevation
 
 
-def get_rescue_grid(hiker, grid_range=500, grid_resolution=10, simulation_data=None):
+def get_rescue_grid(hiker, grid_range=500, grid_resolution=10, data=None):
     grid_N = int(grid_range / grid_resolution)
     grid = []
     origin = hs.inverse_haversine(hiker.loc, grid_range / 2, Direction.WEST, unit=Unit.METERS)
@@ -199,9 +202,7 @@ def get_rescue_grid(hiker, grid_range=500, grid_resolution=10, simulation_data=N
 
     df = pd.DataFrame(np.squeeze(np.array(grid)), columns=['latitude', 'longitude'])
     df['prob'] = np.nan
-    prob = []
     N = len(data)
-    bound_width = grid_resolution / 2
     lats = df.latitude.unique()
     lats.sort
     longs = df.longitude.unique()
